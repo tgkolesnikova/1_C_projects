@@ -1,0 +1,28 @@
+version: 1.0
+file: test9.obj
+description: test file
+test result: OK
+ 
+g cube
+
+v 1.0 1.0 1.0
+v 0.0 0.0 0.0
+v 0.0 0.0 1.0
+v 0.0 1.0 0.0
+v 0.0 1.0 1.0
+v 1.0 0.0 0.0
+v 1.0 0.0 1.0
+v 1.0 1.0 0.0
+
+f 2 8 6
+f 2 4 8
+f 2 5 4
+f 2 3 5
+f 4 1 8
+f 4 5 1
+f 6 8 1
+f 6 1 7
+f 2 6 7
+f 2 7 3
+f 3 7 2
+f 3 1 5
